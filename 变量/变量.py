@@ -41,7 +41,7 @@ print(x is y) #false
 
 
 # 基本数据类型：int float str bool list dict
-# 
+#list
 
 
 
