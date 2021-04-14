@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/4/12 10:01
 # @Author : Anna
-# @Email : wayne_lau@aliyun.com
+# @Email : 734666093@qq.com
 # @File : 变量.py
 # @time:2021/04/12
 # @Project : basePython
@@ -42,6 +42,17 @@ print(x is y) #false
 
 # 基本数据类型：int float str bool list dict
 #list
+
+
+# python是引用传递
+# 变量的赋值，还有变量名的传参，传递的都是栈区的数据(引用传递），栈区的数据是变量名和内存地址的对应关系，或者是对应的引用
+l1 = [111,222]
+l2 =l1
+l1[0]=444
+print(l1,l2) #l1,l2指向同一块内存地址，l1改变，则l2也会改变
+# 直接引用是指的直接从栈区出发直接引用到的内存地址
+# 间接引用是指的从栈区出发引用到堆区后再进一步引用才能到达的内存地址
+
 
 
 

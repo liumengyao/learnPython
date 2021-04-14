@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/4/12 14:35
 # @Author : Anna
-# @Email : wayne_lau@aliyun.com
+# @Email : 734666093@qq.com
 # @File : 垃圾回收机制.py
 # @time:2021/04/12
 # @Project : learnPython
